@@ -1,0 +1,113 @@
+START 
+|
+V
+Klasa Board ( tablica dwuwymiarowa, nasza plansza)
+|
+V
+klasa Piece ( reprezentuje poszczególne figury na plansz, kolor, połozenie)
+|
+V
+Klasa dziedzicząca po Piece (dziedziczy to co Piece + konkretne figurki takie jak Król, Hetman, Pionek itp.)
+|
+V
+Klasa Player ( zawiera informacje o kolorze, posiadanych figurach i możliwych ruchach)
+|
+V
+Klasa Game (zarządza przebiegiem gry, metoda sprawdza czy ruch jest ok, jak tak to aktualizuje planszę i zmienia gracza)
+|
+V
+w main utwórz nową grę i rozpocznij program 
+|
+V
+END
+
+
+
+
+
+START 
+|
+V
+Utwórz planszę i ustaw figury
+|
+V
+Do końca gry : 
+	|
+	V
+	Wyswietl plansze 
+	|
+	V
+	Pobierz ruch od gracza
+	|
+	V
+	Sprawdz czy ruch dozwolony:
+		|
+		V
+		Jesli dozwolony: 
+			|
+			V
+
+			Przesuń figurę 
+			|
+			V
+			Sprawdz, czy gra sie skończyła:
+				|
+				V
+				Jesli skończyła :
+					|
+					V
+					Wyświetl wiadomość o zwycięzcy
+					|
+					V
+					Zakoncz gre
+				
+				Inaczej:
+				|
+				V
+				Zmień gracza:
+		Inaczej:
+		|
+		V
+		Wyswietl komunikat o niepoprawnym ruchu
+	
+	|
+	V
+	Pobierz ruch od gracza
+	
+|
+V
+Koniec	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
